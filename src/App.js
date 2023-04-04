@@ -37,8 +37,8 @@ const App = () => {
       <div className="App">
         <h1>*************************</h1>
         <form>
-          <p ref={resultRef}>Total : {result}</p>
-          <input
+          <p className="total" ref={resultRef}>Total : {result}</p>
+          <input className="inp"
             pattern="[0-9]"
             ref={inputRef}
             type="number"
@@ -46,12 +46,24 @@ const App = () => {
           />
           <br />
           <br />
-          <button onClick={plus}>Add</button>
-          <button onClick={minus}>Substract</button>
-          <button onClick={divide}>Divide</button>
-          <button onClick={times}>Multiply</button>
-          <button onClick={resetInput}>Reset Input</button>
-          <button onClick={resetResult}>Reset Result</button>
+          <button className="btn" onClick={plus}>
+            Add
+          </button>
+          <button className="btn" onClick={minus}>
+            Substract
+          </button>
+          <button className="btn" onClick={divide}>
+            Divide
+          </button>
+          <button className="btn" onClick={times}>
+            Multiply
+          </button>
+          <button className="btn" onClick={resetInput}>
+            Reset Input
+          </button>
+          <button className="btn" onClick={resetResult}>
+            Reset Result
+          </button>
         </form>
         <br />
         <h1>*************************</h1>

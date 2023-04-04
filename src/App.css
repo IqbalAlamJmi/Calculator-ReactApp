@@ -1,3 +1,20 @@
 .App {
   text-align: center;
+  background-color: cadetblue;
+}
+.btn {
+  background-color: rgb(206, 109, 198);
+  cursor: pointer;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+}
+.inp {
+  margin: 10px;
+  padding: 10px;
+  background-color: rgb(206, 109, 198);
+  border-radius: 5px;
+}
+.total {
+  font-size: 20px;
 }
